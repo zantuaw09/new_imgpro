@@ -5,6 +5,7 @@ FILTER_CHOICES = [
     ('gray', 'Grayscale'),
     ('sepia', 'Sepia'),
     ('blur', 'Blur'),
+    ('poster', 'Poster'),
 ]
 
 class ImageUploadForm(forms.ModelForm):
